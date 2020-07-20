@@ -16,10 +16,11 @@ class Login extends Component {
       email: this.state.email,
       password: this.state.password
     };
+    // console.log(loginDetails);
     event.preventDefault();
-    axios.post('/login', loginDetails)
+    axios.post('/login/login', loginDetails)
         .then((res) => {
-          console.log(res);
+          // console.log(res);
           if (res.status >= 200 && res.status < 300){
             this.props.history.push('/home');
           }
@@ -32,7 +33,15 @@ class Login extends Component {
   onChangeHandler = (event, type) => {
     const newState = {};
     newState[this.state[type]] = event.target.value;
-    this.setState(newState);
+    this.setState({pwd:event.target.value});
+  };
+
+  onEmailChangeHandler = (event, type) => {
+    console.log(type);
+    this.setState({email:event.target.value});
+  };
+  onPwdChangeHandler = (event, type) => {
+    this.setState({password:event.target.value});
   };
 
   render() {
@@ -41,11 +50,11 @@ class Login extends Component {
           <form>
             <div>
               <label>E-mail:</label>
-              <input onChange={(event) => this.onChangeHandler(event, 'email')} type='email' placeholder='E-mail'/>
+              <input onChange={(event) => this.onEmailChangeHandler(event, 'email')} type='email' placeholder='E-mail'/>
             </div>
             <div>
               <label>Password:</label>
-              <input onChange={(event) => this.onChangeHandler(event, 'password')} type='password' placeholder='password'/>
+              <input onChange={(event) => this.onPwdChangeHandler(event, 'password')} type='password' placeholder='password'/>
             </div>
             <button onClick={this.loginHandler}>Submit</button>
           </form>

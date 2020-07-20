@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: 'https://reqres.in/api/login',
+  baseURL: 'https://reqres.in/api/',
   headers: {
     post: {        // can be common or any other method
       'access-control-allow-headers': 'Origin, X-Requested-With, Content-Type, Accept',
