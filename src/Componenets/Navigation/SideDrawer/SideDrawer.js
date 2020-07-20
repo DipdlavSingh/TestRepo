@@ -7,10 +7,10 @@ import classes from './SideDrawer.module.css'
 class SideDrawer extends Component{
   state = {
     navItemList: [
-      {title: 'Home', icon: '', pathname: '/home'},
-      {title: 'Inbox', icon: '', pathname: '/inbox'},
-      {title: 'Products', icon: '', pathname: '/products'},
-      {title: 'Invoices', icon: '', pathname: '/invoices'}
+      {title: 'Home', icon: 'home', pathname: '/home'},
+      {title: 'Inbox', icon: 'email', pathname: '/inbox'},
+      {title: 'Products', icon: 'widgets', pathname: '/products'},
+      {title: 'Invoices', icon: 'list_alt', pathname: '/invoices'}
     ]
   };
 

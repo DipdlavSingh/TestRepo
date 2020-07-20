@@ -1,0 +1,16 @@
+.Header{
+    background-color: #172B4D;
+    padding: 10px;
+    text-align: left;
+    display: flex;
+}
+
+input{
+    align-self: start;
+}
+
+span{
+    margin: 0px 10px;
+    color: #fff;
+    float: right;
+}

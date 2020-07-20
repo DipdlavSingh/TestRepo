@@ -10,7 +10,9 @@ const navItem = (props) => {
         <NavLink
             to={props.pathName}
             activeClassName={classes.active}
-        >{props.children}</NavLink>
+        >
+          <span className="material-icons">{props.icon}</span>
+          {props.children}</NavLink>
       </div>
   )
 };
