@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93427899-43a7-4c32-b838-a9f140a1a171" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/hoc/layout/Layout.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Componenets/Navigation/NavItem/NavItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componenets/Navigation/NavItem/NavItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Componenets/Navigation/NavItem/NavItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componenets/Navigation/NavItem/NavItem.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Componenets/Navigation/SideDrawer/SideDrawer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componenets/Navigation/SideDrawer/SideDrawer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Componenets/Navigation/SideDrawer/SideDrawer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componenets/Navigation/SideDrawer/SideDrawer.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Containers/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/Login/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/MainContent/MainContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/MainContent/MainContent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/MainContent/MainContent.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/MainContent/MainContent.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/MainContent/UserList/UserList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/MainContent/UserList/UserList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/MainContent/UserList/UserList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/MainContent/UserList/UserList.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hoc/layout/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/layout/layout.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,18 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hoc/layout/layout.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hoc/layout/Layout.module.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -68,6 +45,18 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Containers/Login/Login.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Containers/MainContent/UserList/UserList.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -80,7 +69,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Containers/MainContent/UserList/UserList.module.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
@@ -168,7 +157,6 @@
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/Containers/MainContent/MainCOntent.css" />
         <option value="$PROJECT_DIR$/src/axios-instance.js" />
-        <option value="$PROJECT_DIR$/src/Containers/Login/Login.js" />
         <option value="$PROJECT_DIR$/src/hoc/layout/Layout.css" />
         <option value="$PROJECT_DIR$/src/hoc/layout/layout.js" />
         <option value="$PROJECT_DIR$/src/Containers/MainContent/MainContent.module.css" />
@@ -180,6 +168,7 @@
         <option value="$PROJECT_DIR$/src/Componenets/Navigation/NavItem/NavItem.module.css" />
         <option value="$PROJECT_DIR$/src/Containers/MainContent/UserList/UserList.js" />
         <option value="$PROJECT_DIR$/src/Containers/MainContent/UserList/UserList.module.css" />
+        <option value="$PROJECT_DIR$/src/Containers/Login/Login.js" />
       </list>
     </option>
   </component>
@@ -247,6 +236,13 @@
               <item name="training-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Containers" type="462c0819:PsiDirectoryNode" />
+              <item name="Login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="training-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="training-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Containers" type="462c0819:PsiDirectoryNode" />
               <item name="MainContent" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -308,12 +304,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595223962534</updated>
-      <workItem from="1595223964232" duration="12994000" />
+      <workItem from="1595223964232" duration="13515000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12994000" />
+    <option name="totallyTimeSpent" value="13515000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -325,7 +321,7 @@
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.328594" />
+      <window_info anchor="bottom" id="Terminal" order="2" visible="true" weight="0.328594" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
@@ -416,16 +412,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Containers/Login/Login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -494,16 +480,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Componenets/Navigation/NavItem/NavItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Componenets/Navigation/NavItem/NavItem.module.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -525,6 +501,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Componenets/Navigation/NavItem/NavItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Containers/Login/Login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

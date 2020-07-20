@@ -18,10 +18,12 @@ class Login extends Component {
     };
     // console.log(loginDetails);
     event.preventDefault();
-    axios.post('/login/login', loginDetails)
+    axios.post('/login', loginDetails)
         .then((res) => {
           console.log(res);
           if (res.status >= 200 && res.status < 300){
+            localStorage.setItem('token', res.data.token);
+            console.log(localStorage.getItem('token'));
             this.props.history.push('/home');
           }
         })
