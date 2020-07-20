@@ -7,7 +7,9 @@ import classes from './MainContent.module.css'
 class MainContent extends Component{
   render(){
     return(
-        <UserList/>
+        <div className={classes.MainContent}>
+          <UserList/>
+        </div>
     );
   }
 }

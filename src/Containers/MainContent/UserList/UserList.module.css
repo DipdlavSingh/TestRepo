@@ -1,0 +1,7 @@
+.user{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    padding: 5px 10px;
+    border: 1px solid #ff5544;
+}

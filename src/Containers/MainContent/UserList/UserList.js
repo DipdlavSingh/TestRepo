@@ -22,7 +22,11 @@ class UserList extends Component{
   render(){
     const userDivs = this.state.users.map(user => {
     return (<div
-        key={user.id}>{user.first_name}
+        className={classes.user}
+        key={user.id}>
+      <div>{user.first_name}</div>
+      <div>{user.last_name}</div>
+      <div>{user.email}</div>
     </div>)
   });
     return(

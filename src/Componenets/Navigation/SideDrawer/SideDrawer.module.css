@@ -1,8 +1,5 @@
 .SideDrawer{
-    height: 100%;
-    width: 30%;
-    position: fixed;
-    left: 0;
-    top: 0;
-    /*background-color: mediumspringgreen;*/
+    border-right: 1px solid #ff5544;
+    flex: 1;
+    text-align: left;
 }

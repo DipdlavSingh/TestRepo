@@ -20,7 +20,7 @@ class Login extends Component {
     event.preventDefault();
     axios.post('/login/login', loginDetails)
         .then((res) => {
-          // console.log(res);
+          console.log(res);
           if (res.status >= 200 && res.status < 300){
             this.props.history.push('/home');
           }
@@ -32,12 +32,11 @@ class Login extends Component {
 
   onChangeHandler = (event, type) => {
     const newState = {};
-    newState[this.state[type]] = event.target.value;
-    this.setState({pwd:event.target.value});
+    newState[type] = event.target.value;
+    this.setState(newState);
   };
 
   onEmailChangeHandler = (event, type) => {
-    console.log(type);
     this.setState({email:event.target.value});
   };
   onPwdChangeHandler = (event, type) => {
@@ -50,11 +49,11 @@ class Login extends Component {
           <form>
             <div>
               <label>E-mail:</label>
-              <input onChange={(event) => this.onEmailChangeHandler(event, 'email')} type='email' placeholder='E-mail'/>
+              <input onChange={(event) => this.onChangeHandler(event, 'email')} type='email' placeholder='E-mail'/>
             </div>
             <div>
               <label>Password:</label>
-              <input onChange={(event) => this.onPwdChangeHandler(event, 'password')} type='password' placeholder='password'/>
+              <input onChange={(event) => this.onChangeHandler(event, 'password')} type='password' placeholder='password'/>
             </div>
             <button onClick={this.loginHandler}>Submit</button>
           </form>
