@@ -8,11 +8,12 @@ const navItem = (props) => {
   return(
       <div className={classes.NavItem}>
         <NavLink
+            style={{color:props.color}}
             to={props.pathName}
-            activeClassName={classes.active}
-        >
+            activeClassName={classes.active}>
           <span className="material-icons">{props.icon}</span>
-          {props.children}</NavLink>
+          {props.children}
+        </NavLink>
       </div>
   )
 };

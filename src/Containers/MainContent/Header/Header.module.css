@@ -2,15 +2,25 @@
     background-color: #172B4D;
     padding: 10px;
     text-align: left;
-    display: flex;
+    color: #fff;
+}
+
+.headerRow{
+    padding: 10px;
+}
+
+.headerRow div p{
+    margin: auto;
 }
 
 input{
+    border-radius: 20px;
+    border: 0;
     align-self: start;
 }
 
-span{
-    margin: 0px 10px;
+.Header span.icon{
+    margin: 10px 30px;
     color: #fff;
     float: right;
 }

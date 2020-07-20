@@ -1,7 +1,37 @@
+.UserList{
+    border-radius: 10px;
+    /*border: 1px solid #172B4D;*/
+    margin: 20px;
+    background-color: #ffffff;
+    box-shadow: rgba(0,0,0,0.1) 2px 2px 2px 2px ;
+}
+
 .user{
-    display: flex;
-    flex-flow: row;
-    justify-content: space-evenly;
+    box-sizing: border-box;
+    width: 100%;
     padding: 5px 10px;
-    border: 1px solid #ff5544;
+}
+
+.elem{
+    margin: 0;
+    border: 0px;
+    padding: 5px 0px;
+}
+
+div.urow:nth-child(even){
+    background-color: #F7FAFC;
+}
+
+img{
+    height: 50px;
+    border-radius: 50%;
+}
+
+.titleRow{
+    padding: 20px 10px;
+}
+
+.headRow{
+    padding: 10px 0px;
+    background-color: #F7FAFC;
 }

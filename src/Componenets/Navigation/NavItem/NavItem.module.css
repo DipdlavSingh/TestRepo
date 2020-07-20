@@ -4,13 +4,13 @@
 }
 
 .active {
-    background-color: burlywood;
+    background-color: #F7FAFC;
 }
 
 NavLink{
     text-decoration: none;
 }
 
-span{
-    color: #000;
+.NavItem span{
+    margin-right: 10px;
 }
