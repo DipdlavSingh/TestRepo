@@ -12,22 +12,22 @@ class UserList extends Component{
   componentDidMount() {
     axios.get('/users')
         .then(res => {
-          this.state.users = [...res.data];
-          this.state.users.map(user => {
-            return (<div
-                key={user.id}>{user.first_name}
-            </div>)
-          });
+          this.setState({users:[...res.data.data]});
         })
         .catch(err => {
-          console.log('Error'+ err)
+          console.log(err)
         })
   }
 
   render(){
+    const userDivs = this.state.users.map(user => {
+    return (<div
+        key={user.id}>{user.first_name}
+    </div>)
+  });
     return(
         <div className={classes.UserList}>
-
+          {userDivs}
         </div>
     )
   }
