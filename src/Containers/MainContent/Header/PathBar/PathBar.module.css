@@ -1,0 +1,11 @@
+.PathBar{
+    margin: auto !important;
+    background-color: #172B4D;
+    padding: 0;
+}
+
+.pathSubDiv{
+    padding: 15px 20px !important;
+    margin: 0 !important;
+    color: #ffffff;
+}

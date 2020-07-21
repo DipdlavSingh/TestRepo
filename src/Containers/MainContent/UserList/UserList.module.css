@@ -1,21 +1,30 @@
 .UserList{
+    font-size: 0.8rem;
     border-radius: 10px;
     /*border: 1px solid #172B4D;*/
     margin: 20px;
     background-color: #ffffff;
-    box-shadow: rgba(0,0,0,0.1) 2px 2px 2px 2px ;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 .user{
     box-sizing: border-box;
     width: 100%;
-    padding: 5px 10px;
+    padding: 0!important;
 }
 
 .elem{
     margin: 0;
     border: 0px;
     padding: 5px 0px;
+    line-height: 50px;
+    display: table-cell;
+    vertical-align: center;
+}
+
+.urow{
+    padding: 8px 0;
+    margin: auto!important;
 }
 
 div.urow:nth-child(even){
@@ -28,10 +37,73 @@ img{
 }
 
 .titleRow{
+    margin: auto!important;
     padding: 20px 10px;
 }
 
+.titleRow p{
+    font-size: 1rem;
+    margin: 0 0 0 20px;
+}
+
 .headRow{
+    margin: auto!important;
     padding: 10px 0px;
     background-color: #F7FAFC;
+    color: #9DABBA;
+}
+.headRow i{
+    margin-left: 10px;
+}
+
+.progBar{
+    display: inline-block;
+}
+
+.userImg{
+    margin-left: 20px;
+}
+
+/* The following can be independent components*/
+
+.hollowButton{
+    float: right;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #B8AEE8;
+    background-color: transparent;
+    border-radius: 5px;
+    color: #B8AEE8;
+    font-size: 1em;
+    box-shadow: 0 1px 6px rgba(184,174,232, 0.6);
+}
+
+
+.paginate {
+    display: inline-block;
+    padding: 2px;
+    margin: 2px;
+}
+
+.paginate a {
+    font-size: 0.7rem;
+    margin-left: 10px;
+    background-color: #fff;
+    text-decoration: none;
+    color: #7764E4;
+    float: left;
+    padding: 10px 15px;
+    border: 1px solid #7764E4;
+    border-radius: 50%;
+}
+
+.paginate a.active {
+    text-decoration: none;
+    background-color: #7764E4;
+    color: #fff;
+}
+
+.paginate a:hover:not(.active) {
+    background-color: lightgray;
+    text-decoration: none;
 }

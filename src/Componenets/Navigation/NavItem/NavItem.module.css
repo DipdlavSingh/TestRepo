@@ -1,16 +1,24 @@
 .NavItem{
-    padding: 10px 16px;
+    width: 90%;
+    margin: auto;
+    padding: 10px 10px;
     border-radius: 5px;
-}
-
-.active {
-    background-color: #F7FAFC;
-}
-
-NavLink{
-    text-decoration: none;
+    color: #000;
 }
 
 .NavItem span{
     margin-right: 10px;
+}
+
+.NavLinkClass{
+    text-decoration: none;
+    color: #000;
+    font-size: 0.7rem;
+}
+.NavLinkClass:hover{
+    text-decoration: none;
+}
+
+.navIcon{
+    transform: translateY(30%);
 }

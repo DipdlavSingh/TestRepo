@@ -1,4 +1,15 @@
 .SideDrawer{
-    flex: 1;
-    text-align: left;
+    padding: 0 !important;
+}
+
+.titleDiv{
+    padding: 10px;
+}
+.titleDiv h3{
+    margin: 0;
+}
+
+.navDiv{
+    margin-top: 20px;
+    padding: 0px;
 }

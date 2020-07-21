@@ -1,8 +1,8 @@
 .InfoComp{
     background-color: #fff;
-    margin: 10px;
+    margin-top: 20px;
     border-radius: 10px;
-    box-shadow: 1px 1px rgba(0,0,0,0.3);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     padding: 20px;
     box-sizing: padding-box;
     width: 100%;
@@ -12,6 +12,7 @@
 .InfoComp p.label{
     font-size: 0.8rem;
     color: rgb(150,150,150);
+    margin:0;
 }
 
 .InfoComp p.value{
@@ -24,14 +25,42 @@
     color: rgb(150,150,150);
 }
 
-.InfoComp p.bottomText span{
-    color: #2DCE98;
-}
+/*.InfoComp p.bottomText span{*/
+    /*color: #2DCE98;*/
+/*}*/
 
 .icon{
     color: #ffffff;
-    background-color: #F53C56;
     border-radius: 50%;
     padding: 10px;
     float: right;
+}
+
+.data{
+    display: inline-block;
+    margin: 0!important;
+    padding: 0px;
+}
+.data1{
+    width: 50%;
+}
+.symbol{
+    width: 50%;
+}
+.data2{
+    text-align: center;
+    width: 100%;
+}
+
+.rotate{
+    transform: rotate(90deg);
+}
+
+.chartButton{
+    /*float: right;*/
+    border: 0px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #7764E4;
+    padding: 5px 10px;
 }

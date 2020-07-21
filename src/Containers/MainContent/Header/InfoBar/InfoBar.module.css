@@ -1,0 +1,11 @@
+.InfoBar{
+    margin: auto !important;
+    background-color: #172B4D;
+    padding: 0 0 10px 0;
+}
+
+.infoSubDiv{
+    padding: 15px 20px !important;
+    margin: 0 !important;
+    color: #ffffff;
+}
